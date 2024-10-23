@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ X ] Two External Links
+[ X ] Table
+[ X ] Three CSS Rules
+[ X ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -14,47 +14,267 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: #a6cfe4;
+      }
+      .col1 {
+        color: #295f98;
+        font-family: "Gabriola";
+      }
+      h1 {
+        text-align: center;
+        font-size: 100px;
+      }
+      hr {
+        border-width: 2px;
+        color: ;
+      }
+      h2 {
+        font-size: 60px;
+      }
+      p {
+        text-align-last: left;
+        font-family: "Lucida Console";
+        font-size: 30px;
+      }
+      li {
+        text-align-left: left;
+        font-family: "Lucida Console";
+        font-size: 30px;
+      }
+       {
+        font-family: "Lucida Console";
+      }
+      #headings {
+        font-family: "Gabriola";
+        font-size: 60px;
+      }
+      td {
+        font-family: "Lucida Console";
+        font-size: 30px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      #charts {
+        font-family: "Gabriola";
+        font-size: 60px;
+      }
+      a:hover {color: red}
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1 class="col1">A Little Bit of Nothing &#128573;</h1>
 
-<body>
+    <hr />
 
-  <h1>____'s Recipe Book</h1>
+    <h2 class="col1">
+      Contents: &#128004; &#128014; &#128005; &#128012; &#128033; &#128028;
+      &#128043; &#128011; &#128000; &#128001; &#128008; &#128038; &#128019;
+      &#128025; &#128034; &#128024;
+    </h2>
+    <ol>
+      <li>Preface</li>
+      <li>Music I've Been Listening To Lately</li>
+      <li>My TBR List</li>
+      <li>Random Tidbits</li>
+      <li>Conclusion</li>
+    </ol>
 
-  <h2>Contents:</h2>
+    
+    <hr />
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <h2 class="col1">1. Preface &#128189;</h2>
+    <p>
+      I really didn't know what to make this website about. I don't cook. I've
+      never read a recipe in my life. My parents won't even let me touch the
+      stove. Normally I'd make a website about something interesting that's
+      going on in my life but there's nothing! My friends are always busy, my
+      back hurts for some reason (not enough to make a website about it though),
+      and I never have time to do the things I enjoy. So here's a website about
+      <strong><em>a little bit of nothing</em></strong> (Whoa! That's the
+      title!)
+    </p>
 
-  <h2 id="?">Recipe #1</h2>
+    <hr />
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <h2 class="col1">2. Music I've Been Listening To Lately &#128585;</h2>
+    <img
+      src="https://optimise2.assets-servd.host/best-fit/production/albums/leith-ross-to-learn-cover.jpg?w=2400&q=100&auto=format&fit=crop&dm=1685352831&s=f06d1ea24f7f89fd52879ad0b38cc6ed"
+      width="325"
+    />
+    <img
+      src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/2b/9b/5d2b9b7c-0f9b-542b-491c-0c8c99fb34e0/4050538957877.jpg/1200x1200bf-60.jpg"
+      width="325"
+    />
+    <img
+      src="https://www.sentireascoltare.com/wp-content/uploads/2020/09/Adrianne-Lenker-songs.jpg"
+      width="325"
+    />
+    <img
+      src="https://kxci.org/wp-content/uploads/2015/08/Grace.jpg"
+      width="325"
+    />
+    <img
+      src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1b/44/27/1b442770-5a46-e352-cf92-fc5f53d983b9/44409.jpg/1200x1200bf-60.jpg"
+      width="325"
+    />
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <table>
+      <thead>
+        <tr id="headings">
+          <th>Album:</th>
+          <th>Artist:</th>
+          <th>Date of Release:</th>
+          <th>Favorite Song:</th>
+          <th># of Songs:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>To Learn, More</td>
+          <td>Leith Ross</td>
+          <td>December 8, 2023</td>
+          <td>Monogamy</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>DANSE MACABRE</td>
+          <td>Duran Duran</td>
+          <td>October 27, 2023</td>
+          <td>NEW MOON (DARK PHASE)</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>songs</td>
+          <td>Adrianne Lenker</td>
+          <td>October 23, 2020</td>
+          <td>anything</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Grace</td>
+          <td>Jeff Buckley</td>
+          <td>August 23, 1994</td>
+          <td>Last Goodbye</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Heart of the Artichoke</td>
+          <td>Bloomsday</td>
+          <td>June 7, 2024</td>
+          <td>Where I End and You Begin</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      I listen to all my music on
+      <a href="https://open.spotify.com/">Spotify</a>
+    </p>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <hr />
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    <h2 class="col1">3. My TBR List &#129488;</h2>
 
-</body>
+    <p>
+      For those of you that don't know, "TBR" stands for "To Be Read" and is a
+      list of books that you'd like to read sometime soon. "Sometime soon" could
+      mean right after you finish your current book, or it could mean months in
+      the future when you're finally in the mood. I'm often the latter. Here's
+      my list at the moment (in no particular order, again, I have to be in the
+      exact right mood to even consider picking up any of these books from the
+      library, let alone read them).
+    </p>
+    <img
+      src="https://images.newrepublic.com/5be3bd8275265e1767b4a675023553e611e7ae99.jpeg?w=453"
+      width="400"
+    />
+    <img
+      src="http://prodimage.images-bn.com/pimages/9780593311271_p0_v1_s600x595.jpg"
+      width="389"
+    />
+    <img
+      src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1686816141i/133287123.jpg"
+      width="397"
+    />
+    <img
+      src="https://cdn2.penguin.com.au/covers/original/9780141192321.jpg"
+      width="391"
+    />
+    <p>
+      I love to borrow all my books from
+      <a href="https://www.nypl.org/">The New York Public Library</a>!
+    </p>
 
+    <hr />
+
+    <h2 class="col1">4. Random Tidbits &#128511;</h2>
+    <table>
+      <thead>
+        <tr id="charts">
+          <th>Words I Like:</th>
+          <th>Halloween Costume Ideas:</th>
+          <th>Movies I Want to Watch Soon:</th>
+          <th>Cravings I've Had Recently</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ream</td>
+          <td>Sewer Rat</td>
+          <td>Beetlejuice</td>
+          <td>White Bread</td>
+        </tr>
+        <tr>
+          <td>Bereft</td>
+          <td>Benjamin Franklin</td>
+          <td>Scream</td>
+          <td>Nature Valley Bars</td>
+        </tr>
+        <tr>
+          <td>Gimmick</td>
+          <td>Linguini from Ratatouille</td>
+          <td>The Goonies</td>
+          <td>Caprison</td>
+        </tr>
+        <tr>
+          <td>Profundity</td>
+          <td>Baby from Baby Driver</td>
+          <td>Jennifer's Body</td>
+          <td>Chips</td>
+        </tr>
+        <tr>
+          <td>Propagate</td>
+          <td>Phoebe Brdigers in her Skeleton Jumpsuit</td>
+          <td>Stand By Me</td>
+          <td>Ice Cream</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      This is pretty much what my Notes App looks like on any given day. Lots of
+      lists. I <strong><em>love</em></strong> lists.
+    </p>
+    <hr />
+
+    <h2 class="col1">5. Conclusion &#129324;</h2>
+    <p>
+      In conclusion, thus, therefore, to summarize, finally, the contents of
+      this website are coming to an end. I know how dearly you sweet viewers
+      would like to continue the scrolling experience and see what other
+      nothings are going in in my life but unfortunately, all good things must
+      come to an end. I've nothing more to share with you fine people, but
+      perhaps the subjects truly shared were the friends we made along the way
+      &#128516; &#128516; &#128516; Toodle-Loo!
+    </p>
+  </body>
 </html>
